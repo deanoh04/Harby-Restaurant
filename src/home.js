@@ -13,7 +13,7 @@ let homeFunc = function() {
     containerDiv.appendChild(title);
 
     let image = document.createElement('img')
-    image.setAttribute('src', '../images/waffle.jpg')
+    image.setAttribute('src', './images/waffle.jpg')
     image.setAttribute('id', 'waffles')
     containerDiv.appendChild(image)
 

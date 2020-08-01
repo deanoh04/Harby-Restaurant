@@ -32,10 +32,10 @@ function menuFunc() {
         containerDiv.appendChild(temp);
     }
 
-    createItem('California Roll', "sushi", "../images/sushi.jpg")
-    createItem('Burger', 'burger', "../images/burger.jpg")
-    createItem('Hot Dog', 'hot-dog', "../images/dog.jpg");
-    createItem('Shrimp Allemagne', 'shrimp', "../images/shrimp.jpg")
+    createItem('California Roll', "sushi", "./images/sushi.jpg")
+    createItem('Burger', 'burger', "./images/burger.jpg")
+    createItem('Hot Dog', 'hot-dog', "./images/dog.jpg");
+    createItem('Shrimp Allemagne', 'shrimp', "./images/shrimp.jpg")
 }
 
 export {menuFunc};
